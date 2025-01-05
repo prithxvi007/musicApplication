@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.music-bg-container {
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Roboto';
+}
+.music-profile-card-container {
+  min-height: 60vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  padding: 25px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.music-profile-name,
+.music-profile-podcast {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 4px;
+}
+.music-card-container {
+  padding: 15px;
+  background-color: #152850;
+  color: #ffffff;
+  min-height: 60vh;
+}
+.music-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.music-playlist-text {
+  font-size: 29px;
+  font-weight: bold;
+}
+.music-input-container {
+  border: 2px solid #cbd5e1;
+  padding: 10px;
+  border-radius: 5px;
+  height: 50px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+.music-input-el {
+  background: none;
+  outline: none;
+  border: none;
+  color: #cbd5e1;
+  font-size: 22px;
+}
+.icon {
+  color: #ffffff;
+  font-size: 19px;
+}
+.no-songs-view {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-songs-text {
+  font-size: 24px;
+  color: #ffffff;
+}
+.tracks-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.track-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.track-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.track-info {
+  flex-grow: 1;
+  margin-left: 8px;
+}
+
+.track-name {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.track-genre {
+  font-size: 14px;
+  color: #3b82f6;
+  margin: 0;
+}
+
+.track-actions {
+  display: flex;
+  align-items: center;
+}
+
+.track-duration {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.delete-button {
+  background-color: #152850;
+  border: none;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
